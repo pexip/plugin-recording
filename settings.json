@@ -1,0 +1,9 @@
+{
+  "plugins": [
+    {
+      "id": "recording-plugin-1.0",
+      "srcURL": "plugins/recording/recording.plugin.package.json",
+      "enabled": true
+    }
+  ]
+}

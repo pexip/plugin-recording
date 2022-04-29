@@ -1,0 +1,19 @@
+{
+    "id": "recording-plugin-1.0",
+    "name": "recording",
+    "description": "Record the conference via an external recording system",
+    "version": 1.0,
+    "srcURL": "recording.plugin.js",
+    "allowUnload": true,
+    "platforms": ["web", "electron", "ios", "android"],
+    "participantRoles": ["chair"],
+    "menuItems": {
+        "toolbar": [
+            {
+                "icon": null,
+                "label": null,
+                "action": "recordConference"
+            }
+        ]
+    }
+}
